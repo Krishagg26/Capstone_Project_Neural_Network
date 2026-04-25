@@ -1,0 +1,59 @@
+💳 Credit Card Fraud Detection using Neural Networks & CNN
+👨‍💻 Team Members
+Krish Agarwal (2301730146)
+U. Nijaagna (2301730196)
+📌 Project Overview
+This project focuses on detecting fraudulent credit card transactions using Deep Learning techniques, specifically Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN).
+The system analyzes transaction patterns and identifies whether a transaction is fraudulent or legitimate, helping reduce financial risks in digital payment systems.
+
+🚨 Problem Statement
+Credit card fraud is increasing rapidly with the growth of digital transactions. Fraudulent transactions are rare, making the dataset highly imbalanced, which makes detection challenging.
+This project aims to build an automated system that can accurately detect fraud using advanced deep learning models.
+
+🎯 Objectives
+Understand and analyze transaction data
+Perform data preprocessing and feature scaling
+Handle class imbalance using SMOTE
+Build and train ANN and CNN models
+Compare model performance
+Detect fraudulent transactions with high accuracy
+📊 Dataset
+Source: Kaggle Credit Card Fraud Dataset
+Contains anonymized transaction data
+Highly imbalanced dataset (very few fraud cases)
+⚙️ Tech Stack
+Language: Python
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
+Deep Learning: TensorFlow, Keras
+Preprocessing: StandardScaler, SMOTE
+🧠 Models Used
+🔹 Artificial Neural Network (ANN)
+Fully connected layers
+Learns patterns from transaction data
+🔹 Convolutional Neural Network (CNN)
+Uses Conv1D layers
+Captures complex patterns more effectively
+📈 Results
+Both models achieved high accuracy (~99%)
+CNN performed slightly better in terms of loss
+Models successfully detected fraud despite class imbalance
+📊 Key Insights
+Handling imbalance (SMOTE) is crucial
+Feature scaling improves performance
+CNN can capture deeper patterns than ANN
+Recall is important to reduce missed fraud cases
+🚀 Future Scope
+Deploy using Flask / FastAPI
+Real-time fraud detection system
+Use advanced models like Autoencoders
+Integrate with banking systems
+📎 How to Run
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the project
+python main.py
+⭐ Conclusion
+This project demonstrates that Deep Learning (ANN + CNN) can effectively detect fraudulent transactions and improve financial security systems.
+📜 License
+This project is for academic purposes.
